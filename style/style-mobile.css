@@ -1,0 +1,130 @@
+@media screen and (max-width: 1300px){
+    .center{
+        width: 90%;
+    }
+    .container3 .text-left{
+        float: none;
+        width: 100%;
+    }
+    .container3 .text-right{
+        float: none;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .container3 .sub_title{
+        padding-top: 80px;
+    }
+    .container4 .side_right, .container4 .side_left{
+        float: none;
+    }
+    .container4 .side_right .card_img img, .container4 .side_left .card_img img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .container4 .pic_caption h4{
+        padding-top: 30%;
+    }
+    footer .footer_logo{
+        float: none;
+    }
+    footer .research_block, footer .services_block, footer .legal_block{
+        margin-top: 20px;
+    }
+    footer .legal_block{
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container1 h1{
+        width: 100%;
+    }
+    footer .social_links .social-left{
+        float: none;
+        text-align: left;
+    }
+    footer .social_links .social-right{
+        float: none;
+        text-align: left;
+        margin-top: 20px;
+    }
+    footer .social_links .social-right a:first-child{
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .container1 h1{
+        font-size: 72px;
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+    .container3 .subtitle{
+        padding-top: 60px;
+    }
+    .container4{
+        padding-top: 0;
+    }
+    footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    footer .research_block, footer .services_block, footer .legal_block{
+        float: none;
+    }
+    footer .social_links{
+        padding-top: 80px;
+    }
+    footer .social_links .social-right a{
+        margin-right: 32px;
+        margin-left: 0;
+        line-height: 50px;
+    }
+    footer .social_links .social-left a{
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .container4 .pic_caption h4{
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .container1 h1{
+        font-size: 38px;
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+    .container1 .logo, .container1 .burger{
+        margin-top: 20px;
+    }
+    .container3 .subtitle{
+        padding-top: 60px;
+    }
+    .container3 .text-right p{
+        font-size: 30px;
+    }
+    .container3 .text-left hr{
+        margin-top: 50px;
+    }
+    .container3 .description{
+        margin-bottom: 50px;
+    }
+    .container4{
+        padding-top: 0;
+    }
+    .container4 .pic_caption h4{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container4 .card p{
+        width: 100%;
+        max-width: 100%;
+    }
+}
